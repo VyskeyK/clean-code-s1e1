@@ -26,7 +26,7 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task__input {
+.task__input, .task__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1
@@ -109,7 +109,7 @@ li > * {
 li > input[type="checkbox"] {
   margin: 0 10px;
 }
-li > label {
+li > .task__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -128,7 +128,7 @@ li >    .task__input-text {
 }
 
 /* Completed */
-.todo__list_completed label {
+.todo__list_completed .task__label {
   text-decoration: line-through
   color: #888;
 }
@@ -143,6 +143,6 @@ li >    .task__input-text {
   width:224px
 }
 
-.todo__list li.editMode label {
+.todo__list li.editMode .task__label {
   display:none;
 }
