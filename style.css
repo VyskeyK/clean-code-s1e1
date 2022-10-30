@@ -34,7 +34,7 @@
 .todo__wrapper {
   display: flex;
 }
-ul {
+.todo__list {
   margin:0;
   padding: 0px;
 }
@@ -128,21 +128,21 @@ li >    .task__input-text {
 }
 
 /* Completed */
-ul#completed-tasks label {
+.todo__list_completed label {
   text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
-ul li .task__input-text {
+.todo__list li .task__input-text {
   display:none
 }
 
-ul li.editMode .task__input-text {
+.todo__list li.editMode .task__input-text {
   display:inline-block;
   width:224px
 }
 
-ul li.editMode label {
+.todo__list li.editMode label {
   display:none;
 }
