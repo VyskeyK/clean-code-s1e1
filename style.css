@@ -33,6 +33,7 @@
 }
 .todo__wrapper {
   display: flex;
+  margin-top: 20px;
 }
 .todo__list {
   margin:0;
