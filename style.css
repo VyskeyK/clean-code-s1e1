@@ -130,7 +130,7 @@
 }
 
 /* Edit Task */
-.task__input {
+.task__input_hidden {
   display:none
 }
 
