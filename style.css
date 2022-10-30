@@ -130,7 +130,7 @@ li >    .task__input-text {
 
 /* Completed */
 .todo__list_completed .task__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
