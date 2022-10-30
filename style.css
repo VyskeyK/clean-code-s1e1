@@ -102,7 +102,7 @@
   vertical-align: middle;
 }
 
-.todo__item > input[type="checkbox"] {
+.todo__item > .task__checkbox {
   margin: 0 10px;
 }
 .todo__item > .task__label {
