@@ -134,11 +134,11 @@
   display:none
 }
 
-.todo__item.editMode .task__input {
+.task_edit .task__input {
   display:inline-block;
   width:224px
 }
 
-.todo__item.editMode .task__label {
+.task_edit .task__label {
   display:none;
 }
