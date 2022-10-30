@@ -27,7 +27,8 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task__input, .task__label {
+.task__input,
+.task__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1
@@ -43,7 +44,8 @@
 .todo__item {
   list-style: none;
 }
-.task__input,.task__button{
+.task__input,
+.task__button{
   outline: none;
 }
 .task__button {
